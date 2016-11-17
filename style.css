@@ -1,0 +1,206 @@
+/* This sets the main look and feel of the document. Note that 
+this affects the whole body of each linked page */
+body {
+    /* Sets the font */
+    font-family: 'Open Sans', sans-serif;
+    /* Sets the font size */
+    font-size: 16px;
+    /* Sets the blackground colour of the document */
+    background-color:#f6f6f6 ;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+/* Allows me more control of the document contents as a whole */
+#wrapper {
+    /* Insures that the whole space is used */
+    width:768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Controls the header at the top of the document */
+#header {
+    /* Sets the background image of the header */
+ 
+    /* Sets the font colour */
+    color:black;
+    /* Centers the text */
+    text-align:center;
+    /* Gives the text more space around it */
+    padding:5px;
+}
+
+/* This sets the main properties of the navigation section */
+.nav {
+    background-color:#595959;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 0px;
+}
+
+/* The following format the navigation section */
+.nav > li {
+	display:inline-block;
+    padding-right: 50px;
+}
+
+.nav > li > a:link {
+    /* Having no decoration gets rid of the underline etc. */
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.nav > li > a:visited {
+    /* When link is visited, it is not changed for the user */
+    text-decoration:none;
+    color:#ffffff;
+}
+
+.nav > li > a:hover {
+    /* Sets a hover event for the text */
+    text-decoration:none;
+    color:#c1c1c1;
+}
+
+/* Sets the properties of the main text section */
+#section {
+    margin:0px;
+}
+
+.left {
+    width:49%;
+    float:left;
+}
+
+.right {
+    width:49%;
+    float:right;
+}
+
+
+#embeded_pdf {
+    padding-bottom: 20px;
+    text-align: center
+}
+
+#about_section {
+    float:left;
+}
+
+
+#centered_text{
+    text-align: center;
+}
+
+
+/* Sets the style of the table border */
+table.table{
+    border-style: groove;
+}
+
+td {
+    border-style: groove;
+}
+
+/* Sets the attributes of the headers */
+h1 {
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.img1 {
+    width: 96%;
+    height: auto;
+    text-align: center;
+}
+
+.img2 {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.img3 {
+    width:100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: inline-block;
+    width:100%;
+}
+
+.social-links{
+    margin-left: -28px;
+}
+
+.social-links li{
+    display: inline-block;
+    text-align: center
+
+}
+
+.social-links li a{
+    margin-top: 10px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 4px solid #444444;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #ececec;
+    margin-left: 13px;
+}
+.social-links li a:hover{
+    color: #fff;
+    background-color: #d7d7d7;
+}
+
+.social-links li a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.social-links li a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Sets the attributes of the footer */
+#footer {
+    background-color:#444444;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
